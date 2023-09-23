@@ -1,13 +1,10 @@
-package com.example.udemyclone.ui.fragment
+package com.example.udemyclone.ui.ogrenimIcerigim.fragment
 
-import android.content.res.ColorStateList
-import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -16,7 +13,7 @@ import com.example.udemyclone.data.entity.Filtreler
 import com.example.udemyclone.data.entity.OgrenimIcerikleri
 import com.example.udemyclone.databinding.FragmentOgrenimIcerigimBinding
 import com.example.udemyclone.ui.adapter.FiltreAdapter
-import com.example.udemyclone.ui.adapter.OgrenimIcerikleriAdapter
+import com.example.udemyclone.ui.ogrenimIcerigim.adapter.OgrenimIcerikleriAdapter
 
 
 class OgrenimIcerigimFragment : Fragment() {
@@ -94,9 +91,6 @@ class OgrenimIcerigimFragment : Fragment() {
         filtreListesi.add(filtre4)
         val filtrelerAdapter = FiltreAdapter(requireContext(), filtreListesi)
         binding.recyclerViewFiltreler.adapter = filtrelerAdapter
-
-
-
         return binding.root
 
     }

@@ -9,7 +9,7 @@
         android:id="@+id/araFragment"
         />
     <item android:title="Öğrenim İçeriği"
-        android:icon="@drawable/play_btn"
+        android:icon="@drawable/ogrenim_icerigi"
         android:id="@+id/ogrenimIcerigimFragment"
         />
     <item android:title="Wishlist"

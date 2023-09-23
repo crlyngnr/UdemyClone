@@ -22,9 +22,13 @@
         tools:layout="@layout/fragment_hesap" />
     <fragment
         android:id="@+id/ogrenimIcerigimFragment"
-        android:name="com.example.udemyclone.ui.fragment.OgrenimIcerigimFragment"
+        android:name="com.example.udemyclone.ui.ogrenimIcerigim.fragment.OgrenimIcerigimFragment"
         android:label="fragment_ogrenim_icerigim"
-        tools:layout="@layout/fragment_ogrenim_icerigim" />
+        tools:layout="@layout/fragment_ogrenim_icerigim" >
+        <action
+            android:id="@+id/gecisWishlist"
+            app:destination="@id/wishlistFragment" />
+    </fragment>
     <fragment
         android:id="@+id/wishlistFragment"
         android:name="com.example.udemyclone.ui.fragment.WishlistFragment"

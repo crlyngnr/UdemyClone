@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".ui.fragment.OgrenimIcerigimFragment">
+    tools:context=".ui.ogrenimIcerigim.fragment.OgrenimIcerigimFragment">
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView3"
@@ -23,11 +23,19 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
+
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="320dp"
+            android:layout_marginStart="300dp"
+            android:backgroundTint="#E4E4E4"
+            android:background="@drawable/cast" />
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="340dp"
             android:backgroundTint="#FFFFFF"
             android:background="@drawable/searchh" />
 
@@ -46,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:background="@color/black"
+        android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/menu" />

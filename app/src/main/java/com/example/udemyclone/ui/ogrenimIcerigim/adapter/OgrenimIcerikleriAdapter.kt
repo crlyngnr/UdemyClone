@@ -1,4 +1,4 @@
-package com.example.udemyclone.ui.adapter
+package com.example.udemyclone.ui.ogrenimIcerigim.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
