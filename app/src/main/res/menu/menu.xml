@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Öne Çıkanlar"
+    android:icon="@drawable/ic_star"
+    android:id="@+id/oneCikanlarFragment"
+    />
+    <item android:title="Ara"
+        android:icon="@drawable/search"
+        android:id="@+id/araFragment"
+        />
+    <item android:title="Öğrenim İçeriği"
+        android:icon="@drawable/play_btn"
+        android:id="@+id/ogrenimIcerigimFragment"
+        />
+    <item android:title="Wishlist"
+        android:icon="@drawable/heart"
+        android:id="@+id/wishlistFragment"
+        />
+    <item android:title="Hesap"
+        android:icon="@drawable/profile"
+        android:id="@+id/hesapFragment"
+        />
+</menu>

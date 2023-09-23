@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/ogrenimIcerigimFragment">
+
+    <fragment
+        android:id="@+id/araFragment"
+        android:name="com.example.udemyclone.ui.fragment.AraFragment"
+        android:label="fragment_ara"
+        tools:layout="@layout/fragment_ara" />
+    <fragment
+        android:id="@+id/oneCikanlarFragment"
+        android:name="com.example.udemyclone.ui.fragment.OneCikanlarFragment"
+        android:label="fragment_one_cikanlar"
+        tools:layout="@layout/fragment_one_cikanlar" />
+    <fragment
+        android:id="@+id/hesapFragment"
+        android:name="com.example.udemyclone.ui.fragment.HesapFragment"
+        android:label="fragment_hesap"
+        tools:layout="@layout/fragment_hesap" />
+    <fragment
+        android:id="@+id/ogrenimIcerigimFragment"
+        android:name="com.example.udemyclone.ui.fragment.OgrenimIcerigimFragment"
+        android:label="fragment_ogrenim_icerigim"
+        tools:layout="@layout/fragment_ogrenim_icerigim" />
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.example.udemyclone.ui.fragment.WishlistFragment"
+        android:label="fragment_wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+</navigation>
